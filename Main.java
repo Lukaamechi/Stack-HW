@@ -70,10 +70,6 @@ class IntStack {
     int firstFreeIndex;
     int capacity;
 
-    // [   ][   ][   ][   ] Capacity 4
-    //   0    1    2    3
-    //   /\
-    //    |
 
     IntStack(int capacity) {
         this.capacity = capacity;
